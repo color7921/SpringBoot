@@ -1,0 +1,11 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="edu.pnu.domain.MemberVO"><rhs name\="edu.pnu.domain.MemberVO"/></lhs><lhs name\="org.springframework.http.HttpStatusCode"><rhs name\="org.springframework.http.HttpStatus"/></lhs><lhs name\="org.springframework.http.HttpEntity"><rhs name\="org.springframework.http.ResponseEntity"/></lhs><lhs name\="org.springframework.http.ResponseEntity"><rhs name\="org.springframework.http.ResponseEntity"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/><rhs name\="java.sql.SQLException"/><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.sql.SQLException"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.GenerationType"/><rhs name\="javax.persistence.TemporalType"/><rhs name\="jakarta.persistence.TemporalType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javax.persistence.GenerationType"/><rhs name\="javax.persistence.TemporalType"/><rhs name\="jakarta.persistence.TemporalType"/></lhs><lhs name\="org.springframework.data.util.Streamable"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="java.util.function.Supplier"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="org.springframework.data.domain.Sort"><rhs name\="org.springframework.data.domain.Sort"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=23
+org.eclipse.jdt.ui.wizards.srcBinFoldersSrcName=src/main/java
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

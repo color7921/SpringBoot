@@ -1,0 +1,23 @@
+package edu.pnu;
+
+import java.util.Date;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import edu.pnu.domain.Board;
+
+@SpringBootTest
+public class BoardTest {
+
+	@Test
+	public void BoardInsert() {
+		Board board = new Board();
+		board.setTitle("title");
+		board.setWriter("writer");
+		board.setContent("content");
+		board.setCreateDate(new Date());
+		board.setCnt(0L);
+	}
+	
+}

@@ -1,0 +1,26 @@
+package edu.pnu.domain;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "BOARD")
+public class Board {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long seq;
+	private String title;
+	private String writer;
+	private String content;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date createDate;
+	private Long cnt;
+}

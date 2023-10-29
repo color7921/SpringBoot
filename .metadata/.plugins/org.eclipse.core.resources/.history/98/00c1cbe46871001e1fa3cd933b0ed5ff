@@ -1,0 +1,18 @@
+package edu.pnu.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+@Entity
+
+public class Board implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public Board() {
+		super();
+	}
+   
+}

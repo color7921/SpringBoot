@@ -1,0 +1,30 @@
+package edu.pnu;
+
+import java.util.Date;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import edu.pnu.domain.Board;
+import edu.pnu.persistence.BoardRepository;
+
+@SpringBootTest
+public class BoardTest {
+
+	@Autowired
+	//★★부트가 실행이 될 때 ioccontainer에서 BoardRepository를 상속을 받아서 boardRepo에다가 자동으로 생성을 해줌
+	private BoardRepository boardRepo;
+	
+	@Test
+	public void BoardInsert() {
+		Board board = new Board();
+		board.setTitle("title");
+		board.setWriter("writer");
+		board.setContent("content");
+		board.setCreateDate(new Date());
+		board.setCnt(0L);
+		
+		boardRepo.save(board);
+	}
+}

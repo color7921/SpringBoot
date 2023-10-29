@@ -1,0 +1,30 @@
+package edu.pnu;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import edu.pnu.domain.Member;
+import edu.pnu.persistence.MemberRepository;
+
+@SpringBootTest
+public class MemberTest {
+	
+	@Autowired
+	private MemberRepository memberRepo;
+	
+	@DisplayName("1개 출력")
+	@Test
+	public void MemberInsert() {
+		Member member = new Member();
+		member.setId("1");
+		member.setName("Kim");
+		member.setPassword("1234");
+		member.setRole("std");
+		
+	}
+	
+	
+
+}
